@@ -67,5 +67,6 @@ int main()
     std::cout << initString << std::endl;
     strreplace(initString,substring,replacementString);
     std::cout << initString << std::endl;
+    free(initString);
 
 }
